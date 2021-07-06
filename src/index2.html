@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="data:,">
+        <title>Hello Open Data Hub!</title>
+        <style>
+            h1 {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to the OpenDataHub Web Component Webinar :-)</h1>
+
+        <!-- Set the attribute "title" and refer to it as property in JS -->
+        <odh-table title="Parking" id="mytable"></odh-table>
+
+        <script src="./webcomp2.js"></script>
+
+        <!-- 
+            The following programmatic update of the title works only because:
+            1) we have "title" inside observedAttributes
+            2) and we have an "attributesChangedCallback" for "title"
+            3) and a setter for "title"
+        -->
+        <button onclick="update()">Change it</button>
+        <script>
+            function update() {
+                let mytable = document.getElementById("mytable");
+
+                // needs set title(newValue) { ... }
+                mytable.title = "E-Charging Stations"
+
+                // other possibility without setter
+                //mytable.setAttribute("title", "E-Charging Stations");
+            }
+        </script>
+    </body>
+</html>
