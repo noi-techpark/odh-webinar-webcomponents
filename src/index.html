@@ -20,6 +20,8 @@
                 let loc = window.location.hash[window.location.hash.length - 1];
                 loc = loc ? loc : 0;
                 document.getElementById('frame').src = 'index' + loc + '.html';
+                let chapter = document.getElementById("chapter");
+                chapter.innerText = loc;
             }
         </script>
     </head>
