@@ -1,3 +1,7 @@
+/*
+ * Custom Element 
+ */
+
 const tmpl_with_style = `
     <style> 
       h1 {

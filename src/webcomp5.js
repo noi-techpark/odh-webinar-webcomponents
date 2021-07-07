@@ -1,6 +1,4 @@
-// Templates & Slots...
-// Advantage of single HTML parsing, that is, faster and less resources needed 
-// inside the browser.
+// API calls
 
 const tmpl = document.createElement("template");
 tmpl.innerHTML =`

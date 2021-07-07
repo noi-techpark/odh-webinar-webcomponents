@@ -1,3 +1,6 @@
+/**
+ * Observed Attributes
+ */
 
 class OpenDataHubTable extends HTMLElement {
     constructor() {

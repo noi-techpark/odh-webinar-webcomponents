@@ -1,3 +1,7 @@
+/*
+ * Shadow DOM
+ */
+
 const tmpl = `
     <style> 
       h1 {

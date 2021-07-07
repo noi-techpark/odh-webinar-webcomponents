@@ -1,4 +1,6 @@
-
+/**
+ * Custom Event Listeners
+ */
 class OpenDataHubTable extends HTMLElement {
     constructor() {
         super();
