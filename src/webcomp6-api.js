@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 export default function(query, successfunc = null, errorfunc = null) {
     const url = `https://mobility.api.opendatahub.bz.it/v2/flat/${query}`;
     fetch(url)

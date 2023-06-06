@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 // Templates & Slots...
 // Advantage of single HTML parsing, that is, faster and less resources needed 
 // inside the browser.
