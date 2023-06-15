@@ -141,7 +141,7 @@ class OpenDataHubTable extends HTMLElement {
             where = `&where=stype.ire.${encodeURIComponent(stationTypes)}`;
         }
 
-        const url = `https://mobility.api.opendatahub.bz.it/v2/flat/*?select=stype${where}`;
+        const url = `https://mobility.api.opendatahub.com/v2/flat/*?select=stype${where}`;
         fetch(url)
             .then((response) => {
 
